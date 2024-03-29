@@ -5,7 +5,7 @@ Please fill in the template below. Some suggestions have been provided to help y
 Before submission, please replace the suggestions (in italics) with your answers. You can keep the prompts though.
 
 ### Project Name: EduNexus
-### Team Name, Team Number: Team 37
+### Team Name, Team Number: EduNexus, Team 37
 ### Github Link: https://github.com/csc301-2024-s/deliverable-1-37-edunexus
 
 ### Project Summary:
