@@ -6,7 +6,7 @@ Before submission, please replace the suggestions (in italics) with your answers
 
 ### Project Name: EduNexus
 ### Team Name, Team Number: Team 37
-### Github Link: [link to the project_](https://github.com/csc301-2024-s/deliverable-1-37-edunexus)
+### Github Link: https://github.com/csc301-2024-s/deliverable-1-37-edunexus
 
 ### Project Summary:
 
