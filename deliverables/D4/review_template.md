@@ -10,18 +10,15 @@ Before submission, please replace the suggestions (in italics) with your answers
 
 ### Project Summary:
 
-EduNexus is an academic support application which aids educators in underprivileged areas to easily track student grade records and personalize exams report generation. The project aims to improve the administrative organization of schools through automated workflows and digital scalability. They have implemented key features such as automated report generation, performance analyzer, and secure student data management to create a user-friendly and non-technical experience for ease of use by educators. 
-
+EduNexus is an academic support application which aids educators in underprivileged areas to easily track student grade records and personalize exams report generation. The project aims to improve the administrative organization of schools through automated workflows and digital scalability. They have implemented key features such as automated report generation, student performance analysis, and secure data management to create a user-friendly and non-technical experience for ease of use by educators. 
 
 ### Introduction & Overview of the problem and the product:
 
-I was able to infer what problem that this project is trying to solve through context clues. However, more context in the README of the repo would have been helpful and more convincing about how important this application is. Specifically, by providing some facts and figures or examples of the places and the educators who may have difficulty in student record management that would find this project helpful. 
+I was able to infer what problem this project is trying to solve through context clues. However, more context in the README of the repo would have been helpful and more convincing about how important this application is. Specifically, by providing some facts and figures or examples of the places and the educators who may have difficulty in student record management that would find this project helpful. 
 
-I was able to get an overview through watching both the demo video and readme file. 
+I was able to get an overview of the project through watching both the demo video and readme file. 
 
 This project has many similar functionalities to other academic support tools, such as showing student performance analytics and adding different types of users. However, this project can differentiate itself by being designed for helping educators in technologically underserved areas, and as such incorporated more user-friendly and automated workflows. As well, anticipating the scarcity of internet access, EduNexus is developed to run packaged locally on the computer. 
-
-More details on how the schools in underprivileged areas would be benefitted by this project would have been informative and persuasive in the project's impact, such as more information on how schools may currently struggle with their student record management.
 
 More competitive analysis between their product and other educational support tools on the market would help me get more information on how their product differs and is more advantageous to the user. 
 
@@ -52,7 +49,7 @@ The demo video was overall helpful and informative, though I had remaining quest
 
 ### Technical Discussion & Key Learnings:
 
-From the demo and looking at their codebase, EduNexus was built on Electron, which embeds Chromium (renders UI) and Node.js (runs backend). The main benefit of Electron was being cross platform operational for its deployment(on macOS, Windows, and Linux). The UI was created using React.
+From the demo and looking at their codebase, EduNexus was built on Electron, which embeds Chromium (renders UI) and Node.js (runs backend). The main benefit of Electron was being cross platform operational for its deployment (on macOS, Windows, and Linux). The UI was created using React.
 
 The frontend code is in the renderer.js app and the backend code is in the main.js files. The Electron package allows a contextBridge between frontend and backend in order to send data securely between them. 
 
@@ -72,11 +69,11 @@ Looking through the project's codebase, in the path: test/specs/test.e2e.js, I c
 
 The readme was easy to follow as it was well formatted and had concise points on the features, installation, techstack, and collaboration standards. This helped the viewer get a good background on the features of the application and how they can install and/or contribute the application themselves. 
 
-It was easy to read and follow the readme as the document followed good formatting with prominent titles and subpoints. Additionally, the content of the readme included instructive and explanatory text on the key features and installation of the application. 
+It was easy to read and follow the readme as the document followed good formatting with prominent titles and subpoints. 
 
-Overall, there were no technical or major writing errors. The only point that may lead to confusion was that under key features, they list PDF generator as a feature. However, this is not yet implemented due to packaging issues with Electron as mentioned in their demo. Perhaps a note in the readme of the features still in development would be more accurate.
+Overall, there were no technical or major writing errors. The only point that may lead to confusion was that under key features, they list PDF generator as a feature. However, this is not yet implemented. 
 
-As mentioned before, since some of the features are still in development, it may be more clear if the team included a 'to be implemented' section and 'implemented' features section. This can also help in informing future collaborators of the work that they can do, and avoid using the functionalities that do not yet work. 
+Since some of the features are still in development, it may be more clear if the team included a 'to be implemented' section and 'implemented' features section. This can also help in informing future collaborators of the work that they can do, and avoid using the functionalities that do not yet work. 
 
 The use of diagrams would also help improve the quality of the documentation. Visuals of the backend architecture in the readme, along with pictures of the UI and its graphical display rendering would help the first time user understand the application more hollistically. 
 
@@ -84,7 +81,7 @@ The use of diagrams would also help improve the quality of the documentation. Vi
 
 I followed their instructions and was able to clone and download the necessary packages onto my local machine. 
 
-Most of the features ran as expected. Other than the features mentioned in the demo that were still in development (such as how PDFs cannot be generated currently, and that there is no way to add students to a class) the only error I encountered was when I created a new teacher user and logged in, the entire school's data was displayed instead of the single class I assigned to the teacher. Also the label read 'John Doe' instead of the name I typed in. 
+Most of the features ran as expected. Other than the features mentioned in the demo that were still in development (such as how PDFs cannot be generated currently, and that there is no way to add students to a class) the only error I encountered was when I created a new teacher user, assigned it a class and logged in, the entire school's data was displayed instead of the single class I assigned to the teacher. Also the label read 'John Doe' instead of the name I typed in. 
 
 I tested the key features that were mentioned in the readme file, and additionally the authentication feature for data security. The key features worked as demonstrated in the demo video, and I was able to login to the application under different user levels.  
 
@@ -99,7 +96,7 @@ From my experience the UI of this product is well structured and coloured from a
 After adding a new class and teacher, it would be useful to also be able to see it in the admin view. Currently, when I added these new pieces of information and searched for it from the admin account, they do not display. In a school setting, admin staff should be able to see the new classes from the application.
 
 ### Misc.:
-A additional point to consider is that students may be a user group that the application can also consider as they may have difficulty keeping track of their test scores from the past. They can also benefit from having their records in a secure place for access and use it to calculate their GPAs.
+An additional point to consider is that students may be a user group that the application can also consider as they may have difficulty keeping track of their test scores from the past. They can also benefit from having their records in a secure place for access and use it to calculate their GPAs.
 
 
 
